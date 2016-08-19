@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+
+
+header {
+  height: 100px;
+  width: 100%;
+  background-color: #8bbbce;
+  text-align: center;
+  padding-top: 30px;
+  border: 1px solid black;
+  font-size: 50px;
+  border-radius: 5px;
+}
+
+.bar {
+  display: flex;
+  flex-direction: row;
+  background-color: #bbbbbb;
+  border: 1px solid black;
+  width:100%;
+  flex-direction: row;
+  justify-content: center;
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.home {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px 25px;
+}
+
+.tab1 {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px 25px;
+}
+
+.tab2 {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px 25px;
+}
+
+.tab3 {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px 25px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.left {
+  background-color: #6e8ca6;
+  float: left;
+  width: 10%;
+  height: 500px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.nav {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 20px 5px;
+  margin: 20px 5px;
+  text-align: center;
+}
+
+.middle {
+  background-color: #bbbbbb;
+  width: 70%;
+  height: 500px;
+  float: left;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.right {
+  background-color: #6e8ca6;
+  float: right;
+  width: 10%;
+  height: 500px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+
+.footer {
+  height: 70px;
+    background-color: #8bbbce;
+  clear: both;
+  text-align: center;
+  padding: 20px;
+  border-radius: 5px;
+}
