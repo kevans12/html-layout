@@ -8,10 +8,11 @@ header {
   width: 100%;
   background-color: #8bbbce;
   text-align: center;
-  padding-top: 30px;
+  padding-top: 20px;
   border: 1px solid black;
   font-size: 50px;
   border-radius: 5px;
+  font-family: cursive;
 }
 
 .bar {
@@ -60,7 +61,6 @@ header {
 
 .left {
   background-color: #6e8ca6;
-  float: left;
   width: 10%;
   height: 500px;
   padding: 10px;
@@ -88,14 +88,22 @@ header {
 
 .right {
   background-color: #6e8ca6;
-  float: right;
   width: 10%;
   height: 500px;
   padding: 10px;
   margin: 10px;
   border-radius: 5px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
+img {
+  height: 100px;
+  width: 75px;
+  padding: 5px;
+}
 
 .footer {
   height: 70px;
