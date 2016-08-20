@@ -1,0 +1,87 @@
+.main {
+  background-color: white;
+  width: 100%
+  height: auto;
+  margin: 5px;
+}
+
+.first {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 150px;
+}
+
+.box1 {
+  flex: 1;
+  background: red;
+  padding: 10px;
+  margin:10px;
+}
+
+.box2 {
+  flex: 1;
+  background: blue;
+  padding: 10px;
+  margin:10px;
+}
+
+.box3 {
+  flex: 1;
+  background: gray;
+  padding: 10px;
+  margin: 10px;
+}
+
+.second {
+  height: 200px;
+  margin: 10px;
+}
+
+.third {
+  display: flex;
+  height: 200px;
+  width: 100%;
+  margin: 10px;
+  flex-direction: row;
+}
+
+.box4 {
+  flex: 1;
+  background-color: red;
+}
+
+.box5 {
+  flex: 2;
+  background-color: blue;
+  margin-right: 10px;
+}
+
+.fourth {
+  display: flex;
+  height: 200px;
+  width: 100%;
+  margin: 10px;
+  flex-direction: row;
+}
+
+.bottom1 {
+  background-color: blue;
+  flex: 10;
+}
+
+.bottom2 {
+  background-color: red;
+  flex: 1;
+}
+
+.bottom3 {
+  background-color: gray;
+  flex: 5;
+}
+
+.bottom4 {
+  background-color: red;
+  flex: 1;
+  margin-right: 10px;
+}
